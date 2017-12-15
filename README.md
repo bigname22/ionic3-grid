@@ -1,9 +1,9 @@
 # ionic3-grid
 ionic3如何使用ion-grid,如何实现两列多行...
 
-###ionic3 grid网格基础使用
+# ionic3 grid网格基础使用
 
-####[csdn地址](http://blog.csdn.net/bigname22/article/details/78812986)
+# [csdn地址](http://blog.csdn.net/bigname22/article/details/78812986)
 
 解除ionci不久，需要开发一个页面，两列多行。大哥，这要是android，闭着眼睛都能写出来，脑子废了都没问题的事。可偏偏，这要用ionic来实现。
 
