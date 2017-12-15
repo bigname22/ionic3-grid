@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>网格</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-grid>
+    <ion-row *ngFor="let rowList of getRowListByGridList(2)">
+      <ion-col *ngFor="let colItem of rowList">
+        <div style="width: 60%;height: 32px;display: inline-block" [ngStyle]="{'background-color': colItem.color}"></div>
+        {{colItem.name}}
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
